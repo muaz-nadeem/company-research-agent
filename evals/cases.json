@@ -1,0 +1,7 @@
+[
+  {"id":"company-brief","company":"Stripe","question":"Summarize Stripe’s payment volume in 2024 and distinguish it from revenue.","rubric":["Correct 2024 period","Payment volume distinguished from company revenue","Citations support all numeric claims"]},
+  {"id":"historical-earnings","company":"Microsoft","question":"Summarize Microsoft FY2024 revenue and operating income from official reporting.","rubric":["Fiscal period explicitly named","Amounts and units correct","Official filing cited"]},
+  {"id":"comparison","company":"Shopify and BigCommerce","question":"Compare Shopify and BigCommerce’s target customers and product positioning.","rubric":["Both companies covered","Comparable dimensions","Facts distinguished from interpretation"]},
+  {"id":"private-data","company":"Linear","question":"What is Linear’s audited 2025 net profit? Explain if reliable public evidence is unavailable.","rubric":["No invented financials","Unavailable data acknowledged","Sources relevant to the company"]},
+  {"id":"current-news","company":"NVIDIA","question":"What are NVIDIA’s most recent earnings developments? State the reporting period and source dates.","rubric":["Correct company","Explicit report date and fiscal period","No retrieval date passed off as publication date"]}
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "case": "company-brief",
+    "strategy": "single_pass",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Correct 2024 period",
+        "Payment volume distinguished from company revenue",
+        "Citations support all numeric claims"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "company-brief",
+    "strategy": "agent_workflow",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Correct 2024 period",
+        "Payment volume distinguished from company revenue",
+        "Citations support all numeric claims"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "historical-earnings",
+    "strategy": "single_pass",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Fiscal period explicitly named",
+        "Amounts and units correct",
+        "Official filing cited"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "historical-earnings",
+    "strategy": "agent_workflow",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Fiscal period explicitly named",
+        "Amounts and units correct",
+        "Official filing cited"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "comparison",
+    "strategy": "single_pass",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Both companies covered",
+        "Comparable dimensions",
+        "Facts distinguished from interpretation"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "comparison",
+    "strategy": "agent_workflow",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Both companies covered",
+        "Comparable dimensions",
+        "Facts distinguished from interpretation"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "private-data",
+    "strategy": "single_pass",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "No invented financials",
+        "Unavailable data acknowledged",
+        "Sources relevant to the company"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "private-data",
+    "strategy": "agent_workflow",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "No invented financials",
+        "Unavailable data acknowledged",
+        "Sources relevant to the company"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "current-news",
+    "strategy": "single_pass",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Correct company",
+        "Explicit report date and fiscal period",
+        "No retrieval date passed off as publication date"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  },
+  {
+    "case": "current-news",
+    "strategy": "agent_workflow",
+    "offline_fixture": true,
+    "status": "completed",
+    "answer": "Fixture answer [1](#source-S1)",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Fixture",
+        "url": "https://example.com",
+        "excerpt": "Fixture evidence",
+        "retrieved_at": "2026-10-10"
+      }
+    ],
+    "metrics": {
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "estimated_llm_cost_usd": null,
+      "duration_ms": 0,
+      "shared_search_ms": 0,
+      "citation_count": 1,
+      "invalid_citations": 0,
+      "source_count": 1
+    },
+    "human_review": {
+      "rubric": [
+        "Correct company",
+        "Explicit report date and fiscal period",
+        "No retrieval date passed off as publication date"
+      ],
+      "accuracy_0_to_4": null,
+      "coverage_0_to_4": null,
+      "claim_support_0_to_4": null,
+      "notes": ""
+    }
+  }
+]

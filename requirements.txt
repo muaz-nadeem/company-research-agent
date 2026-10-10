@@ -1,0 +1,16 @@
+langgraph>=1.0.10
+langchain-google-genai>=2.0
+langchain-core>=0.3
+langchain-tavily>=0.1
+python-dotenv>=1.0
+pydantic>=2.0
+fastapi>=0.115
+uvicorn[standard]>=0.32
+json-repair>=0.30
+# Postgres persistence for LangGraph checkpoints
+langgraph-checkpoint-postgres>=3.1
+langgraph-checkpoint-sqlite>=3.0
+psycopg[binary]>=3.1
+# Supabase (thread management + auth verification)
+supabase>=2.0
+filelock>=3.16
